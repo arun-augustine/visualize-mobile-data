@@ -16,7 +16,8 @@ A spider is created for fetching and yielding the data in mobile_scrapy file.The
 
 The graph is plotted with mobile names as x-axis and rating as y-axis after the spider closed as an html.The file will be opened in browser automatically.An api key is needed for this operation which has been already supplied in settings file.You could also update the settings file with your own api key referring to https://plot.ly/ documentation.
 
+Yielded items
+![data_scraped](https://raw.githubusercontent.com/sayonetech/visualize-mobile-data/master/screenshots/data_scraped.png?raw=true "data_scraped")
 
-.. image:: https://raw.githubusercontent.com/sayonetech/visualize-mobile-data/master/screenshots/data_scraped.png
-
-.. image:: https://raw.githubusercontent.com/sayonetech/visualize-mobile-data/master/screenshots/mobile_review.png
+Plotted graph
+![plotted_graph](https://raw.githubusercontent.com/sayonetech/visualize-mobile-data/master/screenshots/mobile_review.png?raw=true "plotted_graph")
