@@ -10,7 +10,6 @@ import scrapy
 
 class MobVisualizeItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
     name = scrapy.Field()
     lowest_price = scrapy.Field()
     launch_date = scrapy.Field()
